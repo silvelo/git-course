@@ -10,7 +10,16 @@
 
 ![repo_status](images/rebase_git.png)
 
-Nota: Ten cuidado con el  editor por defecto incluid en repositorio. La configuración del editor la puedes cambiar con:
+Nota: Ten cuidado con el  editor por defecto incluido en el repositorio. La configuración del editor la puedes cambiar con (dentro del repositorio):
 ```
 git config core.editor code | nano | vim 
+```
+o
+```
+git config core.editor "code --wait"
+```
+o
+
+```
+git config --unset core.editor
 ```
