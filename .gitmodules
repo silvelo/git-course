@@ -1,0 +1,3 @@
+[submodule "js-ci-cd"]
+	path = js-ci-cd
+	url = git@github.com:silvelo/js-ci-cd.git
