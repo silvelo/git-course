@@ -5,4 +5,4 @@
 [submodule "python-ci-cd"]
 	path = python-ci-cd
 	url = git@github.com:silvelo/python-ci-cd.git
-    branch = main
+	branch = main
