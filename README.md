@@ -43,3 +43,27 @@ git config --unset core.editor
   - Black: Arreglar automáticamente el código
   - pre-commit: Manejar hooks de python
   - commitizen: Controlar los mensajes con formato convetional commits
+
+# Git PowerShell [posh-git](https://github.com/dahlbyk/posh-git)
+
+`posh-git` nos ofrece un resumen del estado de nuestro repositorio en powershell.
+
+Para la instalación se pueden seguir lo pasos del repositorio, o ejecutar los siguientes comandos:
+
+1. Habilitar la ejecución de scripts
+
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm
+```
+
+2. Instalar el modulo.
+
+```
+PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+```
+
+3. Añadir al perfil para que cuando iniciamos PowerShell lo tengamos habilitado.
+
+```
+Add-PoshGitToProfile
+```
